@@ -1,0 +1,1 @@
+GRANT ALL ON Cumulus TO root@'localhost' IDENTIFIED BY 'cumulusroot';

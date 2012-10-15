@@ -1,0 +1,42 @@
+#content {
+  padding-top:60px;
+  padding-bottom:60px;
+}
+#modalPrompt { display:none; }
+.avatar .thumbnail {
+  width:150px;
+  height:150px;
+}
+textarea { resize:none; }
+.filesupload { clear:both; }
+.filesupload .item { clear:both; }
+.filesupload .item .toolbox { float:left; }
+.attached { clear:both; }
+#article_form textarea.content {
+  width:400px;
+  height:410px;
+}
+#article_form #publication_date { width:178px; }
+#newsletter_form #publication_date { width:178px; }
+#newsletter_form textarea {
+  width:400px;
+  height:200px;
+}
+#mail_template_form textarea {
+  width:400px;
+  height:200px;
+}
+#page_form textarea {
+  width:400px;
+  height:200px;
+}
+#search_form { margin-right:20px; }
+#search_form input[type=submit] { display:none; }
+body.auth { background-color:#a97f7f; }
+body.auth .container {
+  background-image:url(/public/img/admin/login_bg.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  padding-top:150px;
+  padding-bottom:150px;
+}
