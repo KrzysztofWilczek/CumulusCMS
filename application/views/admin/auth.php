@@ -4,6 +4,8 @@
 	<meta charset=utf-8>
 	<meta name="robots" content="index, follow">
 	<meta name="author" content="Krzysztof Wilczek" />
+	<link rel="shortcut icon" href="/public/img/admin/favicon.png" />
+	<link rel="apple-touch-icon-precomposed" href="/public/img/admin/favicon.png" />
 	<?php if (!empty($keywords)):?><meta name="keywords" content="<?= $keywords;?>" /><?php endif;?>
 	<?php if (!empty($description)):?><meta name="description" content="<?= $description;?>" /><?php endif;?>
 	<?php if (!empty($title)):?><title><?= $title;?></title><?php endif;?>
